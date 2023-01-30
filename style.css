@@ -1,0 +1,120 @@
+/*A-CLEARFIX*/
+.row:before,
+.row:after {
+    content: "";
+    display: block;
+}
+
+.row:after {
+    clear: both;
+}
+
+body {
+    background-position: initial;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+    color:  #4d4d4d;
+}
+
+.brandname {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: #00a0e3;
+}
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.nav-item a {
+    color: #00a0e3;
+    font-size: 1.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    color:#00a0e3 ;
+    font-weight: 700;
+    font-size: 3rem;
+} 
+
+h3 {
+    text-transform: uppercase;
+}
+
+.mtt {
+    margin-top: 10%;
+}
+
+.mbb {
+    margin-bottom: 10%;
+}
+
+.hero {
+    background-image: url('images/herobg1.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    font-family: 'Lobster', cursive;
+    color: #00a0e3;
+    text-shadow: 2px 2px 0px rgba(253, 253, 253, 1);
+    font-size:3rem;
+    margin-top: 5%;
+}
+
+.logo {
+    height: 30vh;
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+    border-radius: 50%;
+}
+
+.service {
+    height: 150px;
+    background-color: #00a0e3;
+    border-radius: 50%;
+    padding: 6%;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.about {
+    height: 25vh;
+    width: auto;
+    margin:  15px auto;
+}
+
+.prices {
+    height: 150px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.prices:hover {
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
+
+.info {
+    font-weight: 700;
+}
+
+.bg-image-info {
+    background-image: url('images/herobg.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-image-info h4 {
+    text-shadow: 2px 2px 0px rgba(253, 253, 253, 1);
+}
+
+.box {
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+}
